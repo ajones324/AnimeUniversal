@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IQZ-ID-MwL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -8,60 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="Mmi-86-try">
-            <objects>
-                <viewController id="3i4-LQ-XrM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YHv-9D-aNb">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="hoP-ks-j43"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Wef-R1-TPJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="640" y="229"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Kce-NR-H2f">
-            <objects>
-                <navigationController id="rWT-F1-t0g" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rxG-Pl-rod">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="WPd-7e-RGP" kind="relationship" relationship="rootViewController" id="F9H-b2-DPr"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xAs-TF-we2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="639" y="-380"/>
-        </scene>
-        <!--Split View Controller-->
-        <scene sceneID="TZ0-Wh-qDZ">
-            <objects>
-                <splitViewController allowDoubleColumnStyle="YES" primaryBackgroundStyle="sidebar" id="IQZ-ID-MwL" sceneMemberID="viewController">
-                    <connections>
-                        <segue destination="rWT-F1-t0g" kind="relationship" relationship="masterViewController" id="y9Y-mE-QAt"/>
-                        <segue destination="3i4-LQ-XrM" kind="relationship" relationship="detailViewController" id="4r7-On-ZmL"/>
-                    </connections>
-                </splitViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rpX-AG-ynk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-266" y="-76"/>
-        </scene>
         <!--Search-->
         <scene sceneID="7eJ-nb-fUY">
             <objects>
-                <viewController title="Search" id="WPd-7e-RGP" customClass="SearchViewController" customModule="HotelSearch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SearchVC" title="Search" id="WPd-7e-RGP" customClass="SearchViewController" customModule="AnimeUniversal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jux-LQ-Kph">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="NjF-Jv-iwS">
-                                <rect key="frame" x="0.0" y="103" width="393" height="44"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="Qm2-tE-t6S"/>
                                 </constraints>
@@ -71,7 +27,7 @@
                                 </connections>
                             </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="0Xw-Gq-ESU">
-                                <rect key="frame" x="0.0" y="147" width="393" height="671"/>
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="WPd-7e-RGP" id="Obj-RV-EJO"/>
@@ -91,7 +47,7 @@
                             <constraint firstItem="0Xw-Gq-ESU" firstAttribute="top" secondItem="NjF-Jv-iwS" secondAttribute="bottom" id="u41-RK-Itx"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Hotels" id="c0N-LB-qoH"/>
+                    <navigationItem key="navigationItem" title="Search" id="c0N-LB-qoH"/>
                     <connections>
                         <outlet property="searchBar" destination="NjF-Jv-iwS" id="yTZ-mc-umt"/>
                         <outlet property="tableView" destination="0Xw-Gq-ESU" id="cb2-T8-gzt"/>
@@ -99,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPn-mq-gtJ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1422" y="-380"/>
+            <point key="canvasLocation" x="497" y="-76"/>
         </scene>
     </scenes>
     <resources>
