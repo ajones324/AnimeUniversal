@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846BEEA829F6C48B003836D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BEEA729F6C48B003836D4 /* AppDelegate.swift */; };
+		846BEEAA29F6C48B003836D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BEEA929F6C48B003836D4 /* SceneDelegate.swift */; };
+		846BEEAC29F6C48B003836D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BEEAB29F6C48B003836D4 /* ViewController.swift */; };
+		846BEEAF29F6C48B003836D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BEEAD29F6C48B003836D4 /* Main.storyboard */; };
+		846BEEB229F6C48B003836D4 /* AnimeUniversal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846BEEB029F6C48B003836D4 /* AnimeUniversal.xcdatamodeld */; };
+		846BEEB429F6C48C003836D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846BEEB329F6C48C003836D4 /* Assets.xcassets */; };
+		846BEEB729F6C48C003836D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846BEEB529F6C48C003836D4 /* LaunchScreen.storyboard */; };
+		846BEEC229F6C48C003836D4 /* AnimeUniversalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BEEC129F6C48C003836D4 /* AnimeUniversalTests.swift */; };
+		846BEECC29F6C48C003836D4 /* AnimeUniversalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BEECB29F6C48C003836D4 /* AnimeUniversalUITests.swift */; };
+		846BEECE29F6C48C003836D4 /* AnimeUniversalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846BEECD29F6C48C003836D4 /* AnimeUniversalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846BEEBE29F6C48C003836D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846BEE9C29F6C48B003836D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846BEEA329F6C48B003836D4;
+			remoteInfo = AnimeUniversal;
+		};
+		846BEEC829F6C48C003836D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846BEE9C29F6C48B003836D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846BEEA329F6C48B003836D4;
+			remoteInfo = AnimeUniversal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846BEEA429F6C48B003836D4 /* AnimeUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BEEA729F6C48B003836D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846BEEA929F6C48B003836D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		846BEEAB29F6C48B003836D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846BEEAE29F6C48B003836D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846BEEB129F6C48B003836D4 /* AnimeUniversal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimeUniversal.xcdatamodel; sourceTree = "<group>"; };
+		846BEEB329F6C48C003836D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846BEEB629F6C48C003836D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846BEEB829F6C48C003836D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846BEEBD29F6C48C003836D4 /* AnimeUniversalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeUniversalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BEEC129F6C48C003836D4 /* AnimeUniversalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeUniversalTests.swift; sourceTree = "<group>"; };
+		846BEEC729F6C48C003836D4 /* AnimeUniversalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeUniversalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846BEECB29F6C48C003836D4 /* AnimeUniversalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeUniversalUITests.swift; sourceTree = "<group>"; };
+		846BEECD29F6C48C003836D4 /* AnimeUniversalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeUniversalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846BEEA129F6C48B003836D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BEEBA29F6C48C003836D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BEEC429F6C48C003836D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846BEE9B29F6C48B003836D4 = {
+			isa = PBXGroup;
+			children = (
+				846BEEA629F6C48B003836D4 /* AnimeUniversal */,
+				846BEEC029F6C48C003836D4 /* AnimeUniversalTests */,
+				846BEECA29F6C48C003836D4 /* AnimeUniversalUITests */,
+				846BEEA529F6C48B003836D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846BEEA529F6C48B003836D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846BEEA429F6C48B003836D4 /* AnimeUniversal.app */,
+				846BEEBD29F6C48C003836D4 /* AnimeUniversalTests.xctest */,
+				846BEEC729F6C48C003836D4 /* AnimeUniversalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846BEEA629F6C48B003836D4 /* AnimeUniversal */ = {
+			isa = PBXGroup;
+			children = (
+				846BEEA729F6C48B003836D4 /* AppDelegate.swift */,
+				846BEEA929F6C48B003836D4 /* SceneDelegate.swift */,
+				846BEEAB29F6C48B003836D4 /* ViewController.swift */,
+				846BEEAD29F6C48B003836D4 /* Main.storyboard */,
+				846BEEB329F6C48C003836D4 /* Assets.xcassets */,
+				846BEEB529F6C48C003836D4 /* LaunchScreen.storyboard */,
+				846BEEB829F6C48C003836D4 /* Info.plist */,
+				846BEEB029F6C48B003836D4 /* AnimeUniversal.xcdatamodeld */,
+			);
+			path = AnimeUniversal;
+			sourceTree = "<group>";
+		};
+		846BEEC029F6C48C003836D4 /* AnimeUniversalTests */ = {
+			isa = PBXGroup;
+			children = (
+				846BEEC129F6C48C003836D4 /* AnimeUniversalTests.swift */,
+			);
+			path = AnimeUniversalTests;
+			sourceTree = "<group>";
+		};
+		846BEECA29F6C48C003836D4 /* AnimeUniversalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846BEECB29F6C48C003836D4 /* AnimeUniversalUITests.swift */,
+				846BEECD29F6C48C003836D4 /* AnimeUniversalUITestsLaunchTests.swift */,
+			);
+			path = AnimeUniversalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846BEEA329F6C48B003836D4 /* AnimeUniversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BEED129F6C48C003836D4 /* Build configuration list for PBXNativeTarget "AnimeUniversal" */;
+			buildPhases = (
+				846BEEA029F6C48B003836D4 /* Sources */,
+				846BEEA129F6C48B003836D4 /* Frameworks */,
+				846BEEA229F6C48B003836D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimeUniversal;
+			productName = AnimeUniversal;
+			productReference = 846BEEA429F6C48B003836D4 /* AnimeUniversal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846BEEBC29F6C48C003836D4 /* AnimeUniversalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BEED429F6C48C003836D4 /* Build configuration list for PBXNativeTarget "AnimeUniversalTests" */;
+			buildPhases = (
+				846BEEB929F6C48C003836D4 /* Sources */,
+				846BEEBA29F6C48C003836D4 /* Frameworks */,
+				846BEEBB29F6C48C003836D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846BEEBF29F6C48C003836D4 /* PBXTargetDependency */,
+			);
+			name = AnimeUniversalTests;
+			productName = AnimeUniversalTests;
+			productReference = 846BEEBD29F6C48C003836D4 /* AnimeUniversalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846BEEC629F6C48C003836D4 /* AnimeUniversalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846BEED729F6C48C003836D4 /* Build configuration list for PBXNativeTarget "AnimeUniversalUITests" */;
+			buildPhases = (
+				846BEEC329F6C48C003836D4 /* Sources */,
+				846BEEC429F6C48C003836D4 /* Frameworks */,
+				846BEEC529F6C48C003836D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846BEEC929F6C48C003836D4 /* PBXTargetDependency */,
+			);
+			name = AnimeUniversalUITests;
+			productName = AnimeUniversalUITests;
+			productReference = 846BEEC729F6C48C003836D4 /* AnimeUniversalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846BEE9C29F6C48B003836D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					846BEEA329F6C48B003836D4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					846BEEBC29F6C48C003836D4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 846BEEA329F6C48B003836D4;
+					};
+					846BEEC629F6C48C003836D4 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 846BEEA329F6C48B003836D4;
+					};
+				};
+			};
+			buildConfigurationList = 846BEE9F29F6C48B003836D4 /* Build configuration list for PBXProject "AnimeUniversal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846BEE9B29F6C48B003836D4;
+			productRefGroup = 846BEEA529F6C48B003836D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846BEEA329F6C48B003836D4 /* AnimeUniversal */,
+				846BEEBC29F6C48C003836D4 /* AnimeUniversalTests */,
+				846BEEC629F6C48C003836D4 /* AnimeUniversalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846BEEA229F6C48B003836D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BEEB729F6C48C003836D4 /* LaunchScreen.storyboard in Resources */,
+				846BEEB429F6C48C003836D4 /* Assets.xcassets in Resources */,
+				846BEEAF29F6C48B003836D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BEEBB29F6C48C003836D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BEEC529F6C48C003836D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846BEEA029F6C48B003836D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BEEAC29F6C48B003836D4 /* ViewController.swift in Sources */,
+				846BEEA829F6C48B003836D4 /* AppDelegate.swift in Sources */,
+				846BEEB229F6C48B003836D4 /* AnimeUniversal.xcdatamodeld in Sources */,
+				846BEEAA29F6C48B003836D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BEEB929F6C48C003836D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BEEC229F6C48C003836D4 /* AnimeUniversalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846BEEC329F6C48C003836D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846BEECC29F6C48C003836D4 /* AnimeUniversalUITests.swift in Sources */,
+				846BEECE29F6C48C003836D4 /* AnimeUniversalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846BEEBF29F6C48C003836D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846BEEA329F6C48B003836D4 /* AnimeUniversal */;
+			targetProxy = 846BEEBE29F6C48C003836D4 /* PBXContainerItemProxy */;
+		};
+		846BEEC929F6C48C003836D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846BEEA329F6C48B003836D4 /* AnimeUniversal */;
+			targetProxy = 846BEEC829F6C48C003836D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846BEEAD29F6C48B003836D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846BEEAE29F6C48B003836D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846BEEB529F6C48C003836D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846BEEB629F6C48C003836D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846BEECF29F6C48C003836D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846BEED029F6C48C003836D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846BEED229F6C48C003836D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimeUniversal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.AnimeUniversal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846BEED329F6C48C003836D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AnimeUniversal/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.AnimeUniversal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846BEED529F6C48C003836D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.AnimeUniversalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeUniversal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimeUniversal";
+			};
+			name = Debug;
+		};
+		846BEED629F6C48C003836D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.AnimeUniversalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeUniversal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimeUniversal";
+			};
+			name = Release;
+		};
+		846BEED829F6C48C003836D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.AnimeUniversalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimeUniversal;
+			};
+			name = Debug;
+		};
+		846BEED929F6C48C003836D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajones.AnimeUniversalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimeUniversal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846BEE9F29F6C48B003836D4 /* Build configuration list for PBXProject "AnimeUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BEECF29F6C48C003836D4 /* Debug */,
+				846BEED029F6C48C003836D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BEED129F6C48C003836D4 /* Build configuration list for PBXNativeTarget "AnimeUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BEED229F6C48C003836D4 /* Debug */,
+				846BEED329F6C48C003836D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BEED429F6C48C003836D4 /* Build configuration list for PBXNativeTarget "AnimeUniversalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BEED529F6C48C003836D4 /* Debug */,
+				846BEED629F6C48C003836D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846BEED729F6C48C003836D4 /* Build configuration list for PBXNativeTarget "AnimeUniversalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846BEED829F6C48C003836D4 /* Debug */,
+				846BEED929F6C48C003836D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		846BEEB029F6C48B003836D4 /* AnimeUniversal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				846BEEB129F6C48B003836D4 /* AnimeUniversal.xcdatamodel */,
+			);
+			currentVersion = 846BEEB129F6C48B003836D4 /* AnimeUniversal.xcdatamodel */;
+			path = AnimeUniversal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 846BEE9C29F6C48B003836D4 /* Project object */;
+}
